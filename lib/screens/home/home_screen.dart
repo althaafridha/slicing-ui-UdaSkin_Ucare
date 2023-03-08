@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:slicing_ui_ucare/screens/home/home_tab_view.dart';
 import 'package:slicing_ui_ucare/screens/home/tab_category.dart';
 
-import '../../service/data.dart';
-import '../../service/data.dart';
 import '../search/search_screen.dart';
 
 class HomePage extends StatefulWidget {

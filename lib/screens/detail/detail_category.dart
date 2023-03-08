@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:slicing_ui_ucare/screens/detail/detail_category_grid.dart';
-import 'package:slicing_ui_ucare/screens/home/home_tab_view.dart';
 
 class DetailCategoryPage extends StatefulWidget {
   const DetailCategoryPage({super.key});

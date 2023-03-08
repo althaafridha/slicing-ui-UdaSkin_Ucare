@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:slicing_ui_ucare/assets/star_ratings.dart';
 import 'package:slicing_ui_ucare/screens/order/order_screen.dart';
 
 import '../../assets/button.dart';
-import '../../main_menu.dart';
 
 class RatePage extends StatefulWidget {
   const RatePage({super.key});

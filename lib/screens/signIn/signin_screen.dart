@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:slicing_ui_ucare/main_menu.dart';
 import 'package:slicing_ui_ucare/screens/welcomescreen/welcome_screen.dart';
 
-import '../home/home_screen.dart';
 import '../signUp/signup_screen.dart';
 
 class SignInPage extends StatefulWidget {
@@ -14,6 +13,9 @@ class SignInPage extends StatefulWidget {
 }
 
 class _SignInPageState extends State<SignInPage> {
+
+  bool varBool = true;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -27,7 +29,7 @@ class _SignInPageState extends State<SignInPage> {
               Container(
                 width: 45,
                 decoration: BoxDecoration(
-                  color: Color(0xffF2F2F2),
+                  color: const Color(0xffF2F2F2),
                   borderRadius: BorderRadius.circular(50),
                 ),
                 alignment: Alignment.topLeft,
@@ -36,7 +38,7 @@ class _SignInPageState extends State<SignInPage> {
                     onPressed: () {
                       Navigator.push(
                         context,
-                        MaterialPageRoute(builder: (context) => WelcomeScreen()),
+                        MaterialPageRoute(builder: (context) => const WelcomeScreen()),
                       );
                     },
                     icon: const Icon(Icons.arrow_back_ios, color: Color(0xff828282),),
@@ -79,7 +81,7 @@ class _SignInPageState extends State<SignInPage> {
                       onPressed: () {
                         Navigator.push(
                           context,
-                          MaterialPageRoute(builder: (context) => MainMenu()),
+                          MaterialPageRoute(builder: (context) => const MainMenu()),
                         );
                       },
                       color: const Color(0xff333333),
@@ -156,8 +158,4 @@ class _SignInPageState extends State<SignInPage> {
       ),
     );
   }
-
-  bool varBool = true;
-
-  checkedValue() {}
 }
